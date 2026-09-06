@@ -17,20 +17,26 @@ The toolkit currently supports:
 
 ```text
 health-data-reporting-toolkit/
+├── .github/
+│   └── workflows/
+│       └── python-app.yml
 ├── data/
 │   └── sample_health_data.csv
 ├── docs/
 │   └── indicators.md
+├── excel/
+│   └── health-data-reporting-toolkit.xlsx
 ├── src/
+│   ├── __init__.py
 │   ├── indicators.py
 │   └── report.py
 ├── tests/
 │   └── test_indicators.py
 ├── .gitignore
+├── CONTRIBUTING.md
 ├── LICENSE
 ├── README.md
 └── requirements.txt
-```
 
 ## Quick start
 
